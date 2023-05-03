@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contaioner-fluid{
+    width: 100%;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+.header{
+    width: 100%;
+    height: 4em;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.head{
+    width: 100%;
+    height: 100%;
+    color: wheat;
+    font-family: serif;
+    font-size: 1.2em;
+}
+
+.wheattxt{
+    color: wheat;
+    font-family: serif;
+    font-size: 1.2em;
+}
+
+.produtos{
+    height: 120vh;
+    width: 100%;
+}
+
+.topBtn > img{
+    width: 3em;
+}
+
+.topBtn{
+    position: fixed;
+    bottom: 10px;
+    right: 1px;
+    display: flex;
+    z-index: 99;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.381);
+}
+
+.topBtn:hover {
+    background-color: #363636;
+}    
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5em;
+    height: 25vh;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.contato{
+    height: 30vh;
+}
+
+.col-25 > a > img{
+    max-width: 40%;
+  
+}
+
+.col-25{
+    width: 25%;
+    height: 100%;
+}
+
+.col-50{
+    width: 50%;
+    height: 100%;
+}
+
+.sobre{
+    text-align: center;
+}
+
+.sobretxt{
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sobrep{
+    font-size: 1.3em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.col-100{
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+.item{
+   text-decoration: none;
+   color: wheat;
+   transition: 0.3s;
+}
+
+.item:hover{
+    color: rgb(243, 185, 78);
+}
+
+.shopCart{
+    max-width: 25%;
+}
+
+.wheatbg{
+    background-color: wheat;
+}
+
+.blackbg{
+    background-color: black;
+}
+
+.contato {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .contato-info {
+    width: 40%;
+    font-size: 0.9rem;
+  }
+  
+  .contato-formulario {
+    width: 60%;
+    font-size: 0.8em;
+  }
+  
+  .contato-info h2,
+  .contato-formulario h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contato-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contato-info ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .contato-formulario label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .contato-formulario input[type="text"],
+  .contato-formulario input[type="email"],
+  .contato-formulario select,
+  .contato-formulario textarea {
+    width: 100%;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 243, 222, 0.785);
+    font-size: 1rem;
+  }
+  
+  .contato-formulario button {
+    background-color: wheat;
+    border: none;
+    color: black;
+    font-family: serif;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
