@@ -1,0 +1,7 @@
+git push origin (branch) = mandar do repositorio local para repositorio remoto
+git pull origin (branch) = puxar do repositorio remoto para repositorio local
+git stash = salvar temporariamente alterações feitas numa branch
+git stash pop = puxar alterações salvas no git stash em outra branch
+git branch = verificar branches
+git checkout = mudar a branch utilizada
+git checkout -b (nome) = cria uma branch e altera direto para ela
