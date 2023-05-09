@@ -1,22 +1,22 @@
-let um = "A:10"
-let dois = "B: 20"
-let nulo = null
-let line = '<hr></hr>'
+// let um = 10
+// let dois = 20
+// let nulo = null
 
 
-document.write(um + '<br>');
-document.write(dois + '<br>');
-document.write('C: ' + nulo)
-document.write(line)
+// document.write(`A: ${um} <br>`);
+// document.write(`B: ${dois} <br>`);
+// document.write(`C: ${nulo} <br>`);
+// document.write('<hr>');
 
-if (true) {
-    let um = "A:20"
-    let dois = "B: 10"
-    let nulo = null
-    let line = '<hr></hr>'
+// um = 20
+// dois = 10
 
+// document.write(`A: ${um} <br>`);
+// document.write(`B: ${dois} <br>`);
+// document.write(`C: ${nulo} <br>`);
 
-    document.write(um + '<br>');
-    document.write(dois + '<br>');
-    document.write('C: ' + nulo)
+if (2 !== '2') {
+    document.write('entrou no if')
+} else {
+    document.write('entrou no else')
 }
